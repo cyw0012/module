@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 .box {
   margin: 100px auto;
   width: 0;
