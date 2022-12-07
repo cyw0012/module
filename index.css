@@ -1,0 +1,18 @@
+.box {
+  margin: 100px auto;
+  width: 0;
+  height: 0;
+  border: 200px solid transparent;
+  border-top-color: springgreen;
+  border-right-color: sandybrown;
+  border-bottom-color: slateblue;
+  border-left-color: yellow;
+  animation: change 3s infinite linear;
+
+}
+
+@keyframes change {
+  to {
+    transform: rotate(360deg)
+  }
+}
